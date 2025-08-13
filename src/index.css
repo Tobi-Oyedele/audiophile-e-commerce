@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-manrope: "Manrope", "sans-serif";
+
+  --color-audiophile-secondary-color: #d87d4a;
+  --color-audiophile-secondary-hover: #fbaf85;
+
+  --color-audiophile-primary-black: #101010;
+  --color-audiophile-primary-grey: #f1f1f1;
+  --color-audiophile-primary-white: #fafafa;
+}
+
+body {
+  @apply font-manrope;
+}
